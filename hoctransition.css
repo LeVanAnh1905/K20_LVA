@@ -1,0 +1,38 @@
+body{
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    padding: 2rem;
+    color: #14213d;
+}
+.menu{
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: #1d4ed8;
+    border-radius: 6px;
+    padding: 0.25rem 0.5rem;
+    display: block;
+}
+.menu a:hover{
+    background: #e0e7ff;
+    color: #dc6d6d;
+}
+.button{
+    padding: 0.5rem 0.75rem;
+    border: 0;
+    border-radius: 8px;
+    background: #dc6d6d;
+    color: #ffffff;
+    font: inherit;
+}
+.button:hover{
+    background: #c25858;
+}
+.menu a, 
+.button{
+    transition: background-color 180ms ease, color 180ms ease;
+}

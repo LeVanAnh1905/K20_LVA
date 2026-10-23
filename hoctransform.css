@@ -1,0 +1,41 @@
+body{
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    padding: 2rem;
+    color: #14213d;
+}
+.luoi{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 60%;
+}
+.card{
+    border: 1px solid #d6dde8;
+    border-radius: 0.5rem;
+    padding: 40px 12px 12px;
+    background: #eff6ff;
+}
+.duoi{
+    background: #fef3c7;
+    padding: 0.25rem 0.5rem;
+    max-width: 60%;
+}
+button{
+    padding: 0.5rem 0.75rem;
+    border: 0;
+    border-radius: 8px;
+    background-color: #1d4ed8;
+    color: #ffffff;
+    font: inherit;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.button:active{
+    transform: translateY(-5px);
+}
+.card:hover{
+    transform: none;
+    border-width: 4px;
+}

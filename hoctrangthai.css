@@ -1,0 +1,66 @@
+/* Bon trang thai tuong tac cua web*/
+/* Re chuot, nhan giu chuot, nhan tab qua menu, nut*/
+body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    padding: 2rem;
+    color: #14213d
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    list-style: none;
+
+}
+
+.menu a {
+    text-decoration: none;
+    padding: o, 5rem 1rem;
+    color: #1f2937;
+}
+
+.menu a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+button {
+    padding: 2rem 3rem;
+    border: 0;
+    border-radius: 1rem;
+    background-color: #1d4ed8;
+    color: #ffffff;
+    font: inherit;
+    cursor: pointer;
+}
+
+.button:hover:not(:disabled) {
+    background: #2563eb;
+}
+
+/*con trỏ ở trên*/
+.button:active:not(:disabled) {
+    background: #1e3a8a;
+    transform: translateY(2px);
+}
+
+/*Đang nhấn*/
+.button:disabled {
+    background: #cbd5e1;
+    color: #475569;
+    cursor: not-allowed;
+}
+
+/* Chưa sẵn sàng */
+
+.menu a:focus-visible,
+.button:focus-visible {
+    outline: 0.25rem solid #1d4ed8;
+    outline-offset: 0.25rem;
+}
+.menu a:active{
+    color:#1d4ed8;
+    font-weight: 600;
+}
